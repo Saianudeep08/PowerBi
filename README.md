@@ -1,8 +1,16 @@
 # Power BI Portfolio
 
-This repository contains Power BI report files, supporting Excel datasets, archived source data, and mini-project material. The files are organized so reports, datasets, and project documentation are easy to find and reuse.
+A collection of Power BI dashboards and supporting datasets for business intelligence, data analysis, and visualization practice.
 
-## Repository structure
+## What this repository demonstrates
+
+- Building interactive Power BI reports from Excel datasets
+- Organizing source datasets separately from report files
+- Financial and business-oriented data visualization
+- Course-progress and completion analysis
+- Reusable project organization for BI work
+
+## Repository Structure
 
 ```text
 .
@@ -10,19 +18,9 @@ This repository contains Power BI report files, supporting Excel datasets, archi
 │   └── financial-sample-country-wise.zip
 ├── datasets/
 │   ├── course-progress/
-│   │   └── course-progress-data.xlsx
 │   └── financial-samples/
-│       ├── country-wise/
-│       │   ├── Canada.xlsx
-│       │   ├── France.xlsx
-│       │   ├── Germany.xlsx
-│       │   ├── Mexico.xlsx
-│       │   └── United States of America.xlsx
-│       └── financial-sample.xlsx
 ├── projects/
 │   └── mini-project/
-│       ├── mini-project-dataset.xlsx
-│       └── power-bi-mini-project-guidelines.pdf
 └── reports/
     ├── BI-1.pbix
     ├── BI-2.pbix
@@ -34,49 +32,39 @@ This repository contains Power BI report files, supporting Excel datasets, archi
     └── Tata_DV.pbix
 ```
 
-## Folder guide
+## Reports
 
-| Folder | Purpose |
-| --- | --- |
-| `reports/` | Power BI Desktop report files (`.pbix`). Open these files in Power BI Desktop to view, edit, or publish dashboards. |
-| `datasets/financial-samples/` | Financial sample Excel workbooks used as source data for practice dashboards and analysis. |
-| `datasets/financial-samples/country-wise/` | Country-specific financial sample workbooks for Canada, France, Germany, Mexico, and the United States of America. |
-| `datasets/course-progress/` | Course progress dataset for learning-progress or completion-tracking analysis. |
-| `projects/mini-project/` | Mini-project dataset and the related project guidelines PDF. |
-| `archives/` | Original compressed source files retained for reference or re-extraction. |
+- **BI-1 to BI-5** — Power BI practice and reporting workbooks
+- **Mini-pro** — mini-project report and supporting dataset
+- **Tata_DV** — Tata-focused data visualization report
+- **POWER-BI-4** — additional report workbook
 
-## Reports included
+## Data
 
-- `BI-1.pbix` through `BI-5.pbix` — sequential Power BI practice/report files.
-- `POWER-BI-4.pbix` — additional Power BI report file preserved with a normalized filename.
-- `Mini-pro.pbix` — mini-project report file.
-- `Tata_DV.pbix` — Tata data visualization report file.
+The repository includes Excel datasets for financial analysis, country-wise financial samples, course-progress analysis, and the mini-project. Source data is kept under `datasets/` while original compressed material is retained under `archives/` when useful.
 
-## Getting started
+## Getting Started
 
-1. Install [Microsoft Power BI Desktop](https://powerbi.microsoft.com/desktop/).
-2. Clone or download this repository.
-3. Open any `.pbix` file from the `reports/` folder.
-4. If Power BI prompts for missing data sources, update the source path to the matching workbook in the `datasets/` or `projects/mini-project/` folder.
-5. Refresh the report to verify that visuals load correctly.
+1. Install Microsoft Power BI Desktop.
+2. Clone this repository.
+3. Open a `.pbix` file from `reports/`.
+4. If a report requests a missing source, point it to the corresponding workbook under `datasets/` or `projects/mini-project/`.
+5. Refresh the report and verify the visuals.
 
-## Data source notes
+## Recommended Workflow
 
-- Keep source workbooks in the existing folder structure when possible. Moving datasets may require updating data source settings inside Power BI Desktop.
-- The `archives/financial-sample-country-wise.zip` file is the original compressed version of the country-wise financial sample data.
-- The extracted country-wise workbooks are already available under `datasets/financial-samples/country-wise/` for direct use.
+- Store Power BI reports in `reports/`.
+- Store reusable Excel/CSV sources in `datasets/`.
+- Keep project-specific assets together under `projects/`.
+- Avoid committing temporary cache or export files.
+- Update this README when adding new reports or datasets.
 
-## Recommended workflow
+## Skills
 
-1. Add new `.pbix` files to `reports/`.
-2. Add reusable Excel or CSV files to an appropriate subfolder under `datasets/`.
-3. Add project-specific files to a dedicated folder under `projects/`.
-4. Keep compressed originals or backups under `archives/` only when they are useful for reference.
-5. Update this README whenever new reports, datasets, or projects are added.
-
-## Maintenance checklist
-
-- Use descriptive filenames without unnecessary timestamps when adding new files.
-- Keep reports and datasets separated.
-- Avoid committing temporary Power BI cache/export files.
-- Verify report refresh paths after moving or renaming datasets.
+- Power BI Desktop
+- Data visualization
+- Dashboard design
+- Excel data preparation
+- Business intelligence
+- Data analysis
+- SQL-oriented analytical thinking
